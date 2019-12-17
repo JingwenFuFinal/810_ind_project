@@ -121,5 +121,6 @@ module.exports = function (app, config) {
             .catch(error => {
                 return next(error);
             });
-    });   
+    });  
+     
 };
