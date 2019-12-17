@@ -1,0 +1,39 @@
+{
+  "name": "ind_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bulebird": "^0.0.1-security",
+    "express": "^4.17.1",
+    "grunt": "^1.0.4",
+    "grunt-cli": "^1.3.2",
+    "jshint-stylish": "^2.2.1",
+    "mocha": "^6.2.2",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.8.1",
+    "morgan": "^1.9.1",
+    "node": "^13.3.0",
+    "nodemon": "^2.0.2",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JingwenFuFinal/810_ind_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JingwenFuFinal/810_ind_project/issues"
+  },
+  "homepage": "https://github.com/JingwenFuFinal/810_ind_project#readme"
+}

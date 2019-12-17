@@ -3,11 +3,10 @@ module.exports = function (grunt) {
   // Project & task configuration.
   grunt.initConfig({
 
-    //Is this the right place to add this??
     nodemon: {
       dev: { script: 'index.js' }
     },
-    //Is this the right place to add this??
+
     jshint: {
       options: {
         reporter: require('jshint-stylish'),
@@ -15,7 +14,7 @@ module.exports = function (grunt) {
       },
       all: ['Gruntfile.js', 'config/*.js']
     },
-    //creates task to set env variables, dev and prod
+    
     pkg: grunt.file.readJSON('package.json'),
     env: {
       dev: {
