@@ -8,7 +8,7 @@
     "aurelia-cli": "^1.2.2",
     "body-parser": "^1.19.0",
     "bulebird": "^0.0.1-security",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "grunt": "^1.0.4",
     "grunt-cli": "^1.3.2",
     "jshint-stylish": "^2.2.1",
